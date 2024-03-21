@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Antiguedad_Oportunidad__c</fullName>
+    <externalId>false</externalId>
+    <formula>if ( TODAY() -  datevalue(CreatedDate) &gt; 365 , &apos;7. mas de un anio&apos;,
+ if ( TODAY() -  datevalue(CreatedDate) &gt; 180 , &apos;6. mas de un semestre&apos;,
+ if ( TODAY() -  datevalue(CreatedDate) &gt; 90 , &apos;5. mas de un trimestre&apos;,
+ if ( TODAY() -  datevalue(CreatedDate) &gt; 30 , &apos;4. mas de un mes&apos;,
+ if ( TODAY() -  datevalue(CreatedDate) &gt; 15 , &apos;3. mas de una quincena&apos;,
+ if ( TODAY() -  datevalue(CreatedDate) &gt; 7 , &apos;2. mas de una semana&apos;,
+ &apos;1. menos de una semana&apos;
+)
+)
+)
+)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Antiguedad Oportunidad</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

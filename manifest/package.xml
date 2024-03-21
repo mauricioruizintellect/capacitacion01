@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>Prueba</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>Opportunity.Antiguedad_Oportunidad__c</members>
+		<members>Opportunity.Budget_Confirmed__c</members>
+		<members>Opportunity.Cedula__c</members>
+		<members>Opportunity.Celular__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>mc_knowYourCustomerForm__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>FinServ__Countries</members>
+		<members>Paises</members>
+		<name>GlobalValueSet</name>
+	</types>
+	<types>
+		<members>mc_accessFormKYC</members>
+		<name>PermissionSet</name>
+	</types>
+	<types>
+		<members>Admin</members>
+		<name>Profile</name>
+	</types>
+	<version>58.0</version>
+</Package>
